@@ -3,15 +3,25 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Описание сайта </title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Профессиональный видеограф в Костроме. Свадебная съёмка, реклама, бренды, fashion многое другое.">
+  <meta name="keywords"
+    content="Свадебный видеограф, видеограф кострома, свадебная съемка, рекламная съемка, видеосъемка корпоративов, свадебный фотограф +и видеограф.">
+  <title>Видеограф Кострома | Оператор в Костроме | Видеосъемка</title>
+  <meta content="Профессиональный видеограф в Костроме. Свадебная съёмка, реклама, бренды, fashion многое другое."
+    name="description">
+  <meta property="og:title" content="Видеограф Кострома | Оператор в Костроме | Видеосъемка">
+  <meta property="og:description"
+    content="Профессиональный видеограф в Костроме. Свадебная съёмка, реклама, бренды, fashion многое другое.">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
   <link href="css/style2.css" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Описание">
-  <meta name="keywords" content="ключевые слова ">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+  <link rel="manifest" href="site.webmanifest">
 
 
 </head>
@@ -29,10 +39,10 @@
       </a>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li><a href="#" class="nav-link px-2 text-white">Главная</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">Портфолио</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">Цены</a></li>
-        <li><a href="#" class="nav-link px-2 text-white">Контакты</a></li>
+        <li><a href="index.php" class="nav-link px-2 text-white">Главная</a></li>
+        <li><a href="#port" class="nav-link px-2 text-white">Портфолио</a></li>
+        <li><a href="#price" class="nav-link px-2 text-white">Цены</a></li>
+        <li><a href="#contact" class="nav-link px-2 text-white">Контакты</a></li>
       </ul>
 
       <ul class="navbar-nav flex-row flex-wrap ms-md-auto">
@@ -41,13 +51,13 @@
               alt="Whatsapp" href="#"></a>
         </li>
         <li class="nav-item col-6 col-md-auto">
-          <a class="nav-link p-2" Whatsapp" href="https://telegram.me/логинкомпании"><img src="img/telegramm.png"
-              alt="telegramm" href="#"></a>
+          <a class="nav-link p-2" Whatsapp" href="https://telegram.me/LopezDeniz"><img src="img/telegramm.png"
+              alt="telegramm" href="https://telegram.me/LopezDeniz"></a>
         </li>
       </ul>
 
-      <a class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ms-md-3 bg-white"
-      type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop">Оставить Заявку</a>
+      <a class="btn btn-bd-download d-lg-inline-block my-2 my-md-0 ms-md-3 bg-white" type="button"
+        data-bs-toggle="modal" data-bs-target="#staticBackdrop">Оставить Заявку</a>
 
     </nav>
   </header>
@@ -56,36 +66,38 @@
 
 
 
-<!-- Модальное окно -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-  <div class="modal-dialog justify-content-center">
-    <div class="modal-content">
-      <div class="modal-header">
-      <div class="col-12">
-        <h1 class="modal-title justify-content-center text-center fs-5" id="staticBackdropLabel">Мы вам перезвоним</h1>
-</div>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
-      </div>
-      <div class="modal-body">
-              <form action="send.php" method="post">
-              <ul>
-                <input type="text" name="fio" placeholder="Ваше имя" required>
-                <input type="text" name="phone" placeholder="Ваш телефон" required>
+  <!-- Модальное окно -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog justify-content-center">
+      <div class="modal-content">
+        <div class="modal-header">
+          <div class="col-12">
+            <h1 class="modal-title justify-content-center text-center fs-5" id="staticBackdropLabel">Мы вам перезвоним
+            </h1>
+          </div>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Закрыть"></button>
+        </div>
+        <div class="modal-body">
+          <form action="send.php" method="post">
+            <ul>
+              <input type="text" name="fio" placeholder="Ваше имя" required>
+              <input type="text" name="phone" placeholder="Ваш телефон" required>
             </ul>
             <div class="modal-footer">
-            <div class="col-12 justify-content-center text-center">
-        <input class="send-button btn-dark justify-content-center text-center" type="submit" value="Отправить">
-</div>
+              <div class="col-12 justify-content-center text-center">
+                <input class="send-button btn-dark justify-content-center text-center" type="submit" value="Отправить">
+              </div>
+            </div>
+          </form>
+        </div>
+
       </div>
-      </form>
-      </div>
-      
     </div>
   </div>
-</div>
 
-<div class="container">
-<a type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" >
+  <div class="container">
+    <a type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
       <button class="pulse-button">
         <span class="pulse-button__icon"></span>
         <div class="pulse-btn">
@@ -98,8 +110,8 @@
 
       </button>
     </a>
-</div>
-<!-- Кнопка-триггер модального окна -->
+  </div>
+  <!-- Кнопка-триггер модального окна -->
 
 
   <div class="container">
@@ -150,7 +162,8 @@
                 обращайтесь ко мне. Я готов помочь вам достичь ваших целей и создать нечто по-настоящему уникальное.</p>
 
               <p>
-                <a class="btn btn-dark" type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop" role="button">Заказать звонок</a>
+                <a class="btn btn-dark" type="button" class="" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                  role="button">Заказать звонок</a>
 
               </p>
 
@@ -287,8 +300,8 @@
 
               <p class="card-text-white">ИЛИ</p>
             </div>
-            <div class="card-footer text-center bg-dark border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn bg-white"
-                target="_blank">Начать Работу</a></div>
+            <div class="card-footer text-center bg-dark border-dark"><a type="button" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop" class="btn bg-white" target="_blank">Начать Работу</a></div>
           </div>
         </div>
 
@@ -299,7 +312,7 @@
 
 
         <div class="col-12">
-          <h2 class="text-center text-uppercase color mb-5">Цены</h2>
+          <h2 id="price" class="text-center text-uppercase color mb-5">Цены</h2>
         </div>
         <div class="container" style="
     margin-top: -7px;
@@ -317,8 +330,8 @@
                   </p>
                   <h4 class="card-title">От 20 000</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
 
@@ -334,8 +347,8 @@
                   </p>
                   <h4 class="card-title">От 15 000</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
 
@@ -351,8 +364,8 @@
                   </p>
                   <h4 class="card-title">От 20 000</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
 
@@ -367,8 +380,8 @@
                   </p>
                   <h4 class="card-title">От 50 000</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
 
@@ -384,8 +397,8 @@
                   </p>
                   <h4 class="card-title">От 40 000</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
 
@@ -401,8 +414,8 @@
                   </p>
                   <h4 class="card-title">От 40 000</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
 
@@ -418,8 +431,8 @@
                   </p>
                   <h4 class="card-title">От 50 000</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button"  data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
 
@@ -435,8 +448,8 @@
                   </p>
                   <h4 class="card-title">От 2 000 час</h4>
                 </div>
-                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-danger"
-                    target="_blank">Оставить заявку</a></div>
+                <div class="card-footer text-center bg-transparent border-dark"><a type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop" class="btn btn-danger" target="_blank">Оставить заявку</a></div>
               </div>
             </div>
           </div>
@@ -466,61 +479,61 @@
 
 
 
-        <div class="container text-center">
+        <div class="container text-center justify-content-center">
           <div class="row gy-5 ">
             <div class="col-12">
-              <h2 class="text-center text-uppercase color mb-5 top-20">Портфолио</h2>
+              <h2 id="port" class="text-center text-uppercase color mb-5 top-20">Портфолио</h2>
             </div>
 
 
             <div class="row gy-5 justify-content-center" style="
     margin-top: -60px">
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center text-center">
                 <iframe src="https://player.vimeo.com/video/813543302?h=1271de0c61" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
 
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/813543424?h=3e9f0fcc84" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
 
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/813543404?h=749b64eb28" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/813543331?h=c44eff5a9e" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/813543085?h=677a2f967a" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/815461436?h=4f9eaf00e9" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/815461511?h=de648fc120" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/815464356?h=0f278f2f72" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
               </div>
 
-              <div cLass="col-sm-6 col-lg-4 col-xl-4 justify-content-center">
+              <div cLass="col-sm-12 col-lg-4 col-xl-4 justify-content-center">
                 <iframe src="https://player.vimeo.com/video/815464308?h=06e78e8101" width="340" height="564"
                   frameborder="0" allow="autoplay; fullscreen" allowfullscreen muted="" autoplay="" loop=""
                   webkit-playsinline="" playsinline=""></iframe>
@@ -560,15 +573,20 @@
 
 
       <div class="container my-5">
+        <div class="col-12">
+          <h2 class="text-center text-uppercase color mb-5 top-20">Контакты</h2>
+        </div>
         <div class="card border-dark">
           <div class="bg-light  p-5 rounded">
             <div class="col-sm-8 py-5 mx-auto">
 
-              <p class="fs-5">Если вы хотите оставить заявку на видеосъёмку или у вас остались какие-либо вопросы,
+              <p id="contact" class="fs-5">Если вы хотите оставить заявку на видеосъёмку или у вас остались какие-либо
+                вопросы,
                 заполните форму или свяжитесь со мной</p>
 
               <p>
-                <a class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop" role="button">Заказать звонок</a>
+                <a class="btn btn-dark" type="button" data-bs-toggle="modal" data-bs-target="#staticBackdrop"
+                  role="button">Заказать звонок</a>
 
               </p>
 
@@ -577,8 +595,8 @@
                 <a class="nav-link p-2" Whatsapp" href="whatsapp://send?phone=79854487143"><img
                     src="img/whatsapp black-32 2.png" alt="Whatsapp" href="#"></a>
 
-                <a class="nav-link p-2" Whatsapp" href="https://telegram.me/логинкомпании"><img
-                    src="img/telegram-2 black-32.png" alt="telegramm" href="#"></a>
+                <a class="nav-link p-2" Whatsapp" href="https://telegram.me/LopezDeniz"><img
+                    src="img/telegram-2 black-32.png" alt="telegramm" href="https://telegram.me/LopezDeniz"></a>
               </div>
               <br>
               <br>
@@ -593,7 +611,7 @@
     </div>
   </div>
 
-  
+
 
 
 
@@ -605,23 +623,24 @@
 
 
   <div class="container">
+
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Главная</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Функции</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Цены</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Ответы</a></li>
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">О нас</a></li>
+        <li class="nav-item"><a href="index.php" class="nav-link px-2 text-muted">Главная</a></li>
+        <li class="nav-item"><a href="#port" class="nav-link px-2 text-muted">Портфолио</a></li>
+        <li class="nav-item"><a href="#price" class="nav-link px-2 text-muted">Цены</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Контакты</a></li>
+
       </ul>
       <p class="text-center text-muted">© 2023 </p>
     </footer>
 
-    
 
 
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="jquery-3.6.3.min.js"></script>
-  <script src="https://player.vimeo.com/api/player.js"></script>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="jquery-3.6.3.min.js"></script>
+    <script src="https://player.vimeo.com/api/player.js"></script>
 </body>
 
 </html>
