@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description"
-    content="Профессиональный видеограф в Костроме. Свадебная съёмка, реклама, бренды, fashion многое другое.">
+    content="Профессиональный видеограф в Костроме. Видеограф на свадьбу, реклама, бренды, fashion многое другое.">
   <meta name="keywords"
     content="Свадебный видеограф, видеограф кострома, свадебная съемка, рекламная съемка, видеосъемка корпоративов, свадебный фотограф +и видеограф.">
-  <title>Видеограф Кострома | Оператор в Костроме | Видеосъемка</title>
+  <title>Видеограф Кострома | Видеограф Денис | Свадебный Видеограф</title>
   <meta content="Профессиональный видеограф в Костроме. Свадебная съёмка, реклама, бренды, fashion многое другое."
     name="description">
-  <meta property="og:title" content="Видеограф Кострома | Оператор в Костроме | Видеосъемка">
+  <meta property="og:title" content="Видеограф Кострома | Видеограф Денис | Видеограф в Костроме">
   <meta property="og:description"
     content="Профессиональный видеограф в Костроме. Свадебная съёмка, реклама, бренды, fashion многое другое.">
   <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -91,7 +91,7 @@
   <!-- Модальное окно -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog justify-content-center">
+    <div class="modal-dialog modal-dialog-centered justify-content-center">
       <div class="modal-content">
         <div class="modal-header">
           <div class="col-12">

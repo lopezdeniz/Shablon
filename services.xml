@@ -22,14 +22,7 @@
         <name>Услуги Видеографа в Костроме</name>
         <url>https://www.zakaz-videografa.ru</url>
       </set>
-      <set id="s2">
-        <name>Видеограф на свадьбу в Костроме Москве</name>
-        <url>https://www.zakaz-videografa.ru</url>
-      </set>
-      <set id="s3">
-        <name>Фотограф на свадьбу в Костроме</name>
-        <url>https://www.zakaz-videografa.ru</url>
-      </set>
+      
     </sets>
     <offers>
       <offer id="1">
@@ -45,7 +38,7 @@
         <expiry>P5Y</expiry>
         <!--Этот набор параметров обязателен-->
         <param name="Рейтинг">5.0</param>
-        <param name="Число отзывов">17</param>
+        <param name="Число отзывов">0</param>
         <param name="Годы опыта">15</param>
         <param name="Регион">Кострома</param>
         <param name="Конверсия">1.935</param><!--Это произвольное число, оно не обязано быть от 0 до 1-->
